@@ -16,7 +16,7 @@ index_name = "cloudflare-rag-index"
 [[d1_databases]]
 binding = "DB"                                       
 database_name = "cloudflare-rag"
-database_id = "d81eb68d-95a3-45aa-8260-3e47f0ebe80a" # replace with your database id
+database_id = "e53b04c0-b1bc-495c-b7ca-8fea2de855b7" # your sheet metal shop database
 migrations_dir = "drizzle"
 
 [[r2_buckets]]
@@ -25,4 +25,4 @@ bucket_name = "cloudflare-rag-bucket"
 
 [[kv_namespaces]]
 binding = "rate_limiter"
-id = "71cc545e20644b7099d296c5c45ffe60" # replace with your KV id
+id = "ac7c8ce52ab8402cbd1e2160ea0f7495" # your rate limiter KV namespace
